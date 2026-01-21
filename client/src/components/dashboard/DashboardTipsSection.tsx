@@ -6,7 +6,7 @@ import PostpartumTip from "../ui/postpartumTips";
 import EarlyChildcareTips from "../ui/earlyChildcareTips";
 import { motion } from "framer-motion";
 
-interface TipsSectionProps {
+export interface TipsSectionProps {
   canonicalStageKey: string | null;
 }
 
